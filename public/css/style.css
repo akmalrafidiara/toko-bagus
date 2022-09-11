@@ -1,0 +1,99 @@
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FAFAF7;
+  color: #1A1B1B;
+}
+
+.container {
+  padding: 1em;
+}
+
+.header{
+	height: 40px;
+	position: relative;
+	background: #A1B4A7;
+	display: flex;
+	align-items: center;
+	padding: 0 1em;
+	color: #ffe;
+	font-weight: bold;
+}
+
+.header a, .header a:visited, .header a:link {
+  text-decoration: none;
+  color: #ffe;
+  cursor: inherit;
+}
+
+.header a:hover{
+	color: #aee7e8;
+  cursor: pointer;
+}
+
+.header div.right{
+display: flex;
+justify-content: flex-end;
+flex-grow: 1;
+}
+
+.header div a{
+	margin: 0 0.3em;
+}
+
+.buku {
+  color: #FAFAF7;
+}
+
+.bagus {
+  color: #484E4D;
+  font-weight: bold;
+}
+
+.form {
+	display: flex;
+	margin: 1em;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+}
+
+.form input {
+	display: flex;
+	margin: 0.5em;
+	padding: 0.2em;
+	font-size: 1.2em;
+}
+
+.form header{
+	display: block;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.books table th{
+  text-align: left;
+  border-bottom: 1px solid #1A1B1B;
+}
+
+.books table{
+  border-collapse: collapse;
+}
+
+.books table td, table th{
+  padding: 0.75em;
+}
+
+.book-title{
+  font-weight: bold;
+}
+
+.review{
+  margin-top: 1em;
+}
+
+.review-container{
+  width: 50%;
+}
